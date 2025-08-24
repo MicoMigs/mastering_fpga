@@ -6,7 +6,6 @@ This project gets the user started with the Digilent Nexys A7 FPGA board. It dem
 - Vivado (2020.2 or newer recommended)
 - Digilent Nexys A7 (Artix-7 100T)
 - USB cable in (J6)
-- 
 
 ## Project Structure
 - `src/top.v` — Verilog source for the shift register
@@ -21,7 +20,7 @@ This project gets the user started with the Digilent Nexys A7 FPGA board. It dem
 Run in the project directory and terminal:
 
 ```powershell
-./go.ps1
+.\go.ps1
 ```
 
 This will synthesize, implement, and generate `top.bit` onto the board.
@@ -34,7 +33,7 @@ This will synthesize, implement, and generate `top.bit` onto the board.
 Run, in project directory:
 
 ```powershell
-./clean.ps1
+.\clean.ps1
 ```
 
 ## File Reference
