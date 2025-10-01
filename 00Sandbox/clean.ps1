@@ -1,16 +1,16 @@
 # Clean Vivado project directory, keep only essentials
 $keep = @(
     "src",
-    "core.v", 
-    "my_74193.v", 
-    "clean.ps1", 
-    "core_physical.xdc", 
-    "core_rtl_list.tcl",
-    "core_timing.xdc", 
-    "go.ps1", 
+    "top.v", 
+    "tb", 
+    "top_tb.v", 
+    "top_timing.xdc", 
+    "top_physical.xdc", 
     "go.tcl", 
-    "run.do"
-    "tb_core.sv"
+    "clean.ps1", 
+    "go.ps1", 
+    "top_rtl_list.tcl",
+    "readme.md"
 )
 
 Get-ChildItem -Force | ForEach-Object {
